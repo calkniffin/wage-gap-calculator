@@ -2,6 +2,9 @@
   "name": "wage-gap-calculator",
   "version": "1.0.0",
   "description": "create graphs to show wage disparities among various groups",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server/index.js --ignore client/"
+  },
   "author": "Brett Nelson, Zach Raymer, Calvin Kniffin, Christian Straubhaar-Jones",
   "license": "UNLICENSED",
   "dependencies": {
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "css-loader": "^0.25.0",
+    "nodemon": "^1.11.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2"
   }
